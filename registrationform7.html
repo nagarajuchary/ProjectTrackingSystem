@@ -22,84 +22,87 @@
             width: 1000px;
             height: auto;
             padding-left: 50px;
-            margin-left: 250px;
-            
-
+           background-color:white  ;
+           color: black;
         }
 
         .btn {
-          margin-left: 400px;
+            margin-left: 400px;
             width: 100px;
             margin-bottom: 50px;
         }
-
-        .h1 {
-            margin-left: 50px;
-        }
-
-        .h1 {
+        h1 {
             margin-left: 30px;
             padding-top: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
         }
+        .np{
+            display: grid;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        body{
+            background-color: transparent;
+        }
+        
     </style>
 </head>
 
 <body>
-    <div class="pt-5 g-0">
-        <div>
+    <div class="np g-0">
+        
             <div class="card">
-
-
-                <h1 class="h1">Add Project</h1>
-                <div class="row g-0">
+                <h1>Add Project</h1>
+                <div class="row pt-5">
                     <div class="col">
-                        <label class="pt-5"><b>Employe id:</b> </label>
+                    <label>Employe id: </label>
+                    <input class="input" type="text">
+                    </div>
+                    <div class="col">
+                    <lebel>Role:</lebel>
+                    <input class="input" type="text">
+                    </div>
+                    <div class="col">
+                    <label>Superior:</label>
+                    <span><input class="input"></span>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <label>First Name: </label>
                         <span><input class="input" type="text"></span>
                     </div>
                     <div class="col">
-                        <lebel><b>Role:</b></lebel>
-                        <span><input class="input" type="text"></span>
-                    </div>
-                    <div class="col">
-                        <label class="pt-5"><b>Superior:</b></label>
-                        <span><input class="input"></span>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col">
-                        <label class="pt-5"><b>First Name:</b> </label>
-                        <span><input class="input" type="text"></span>
-                    </div>
-                    <div class="col">
-                        <lebel class="pt-5"><b>Last Name:</b></lebel>
+                        <lebel>Last Name:</lebel>
                         <span><input class="input"></span>
                     </div>
                     <div class="col">
-                        <label class="pt-5"><b>User Name:</b></label>
+                        <label>User Name:</label>
                         <span><input class="input"></span>
                     </div>
-            </div>
-            <div class="row g-0">
-            <div class="col">
-                <label class="pt-5"><b>Phone Number:</b> </label>
-                <span><input class="input" type="number"></span>
                 </div>
-                <div class="col">
-                <lebel class="pt-5"><b>Email id:</b></lebel>
-                <span><input class="input" type="email"></span>
+                <div class="row pt-3">
+                    <div class="col">
+                        <label>Phone Number: </label>
+                        <span><input class="input" type="number"></span>
+                    </div>
+                    <div class="col">
+                        <lebel>Email id:</lebel>
+                        <span><input class="input" type="email"></span>
+                    </div>
+                    <div class="col">
+                        <label>Qualification:</label>
+                        <span><input class="input"></span>
+                    </div>
                 </div>
-                <div class="col">
-                <label class="pt-5"><b>Qualification:</b></label>
+                <label class="pt-3">Address:</label>
                 <span><input class="input"></span>
-                </div>
-            </div>
-            <label class="pt-5"><b>Address:</b></label>
-            <span><input class="input"></span>
 
-            <button class="btn btn-outline-dark mt-5">Register</button>
-        </div>
-    </div>
-    </div>
+                <button class="btn btn-dark">Register</button>
+
+            </div>
+        
     </div>
 </body>
 

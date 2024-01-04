@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +9,87 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Project Manager</title>
     <style>
-        .h {
-          padding-left: 50px;
+       .h{
+        padding-left: 15px;
         font-size: 20px;
-        }
+       }
         .n{
-            position: relative;
+            justify-content: end;
+           
+        }
+
+        body {
+            background-color: transparent;
+        }
+
+        li {
+            display: block;
+            padding-top: 10px;
+        }
+        body{
+            background-color: transparent;
+        }
+        ul{
+            list-style-type:square;
+            padding-top: 30px;
+            height: 600px;
+            background-color:white;
+        }
+        p{
+            font-size: 30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
     <div>
-        <div class="row" style="padding-left:100px; padding-top: 20px; font-size: 50px;">
-            <h1> Project Tracking System</h1>
-        </div>
-        <div class="row n pt-4">
-            <div class="btn-group">
-                <div class="h" style="padding-left: 100px;"><a href="" style="text-decoration: none;  ">Home</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html" style="text-decoration: none;  " target="adminform">Profile</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\project manager view employes.html" target="adminform" style="text-decoration: none;  ">View EMployees</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\project manager add module.html" target="adminform" style="text-decoration: none;  ">Add Module</a></div>
-                <div  class="h"><a href="D:\html.css\project\Project Tracking\project manager view  module.html" target="adminform" style="text-decoration: none; ">View Module</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\project manager view project.html" target="adminform" style="text-decoration: none;  ">View Projects</a></div>
 
-                <div class="h" ><a href="" style="text-decoration: none; ">Logout</a></div>
+        <div class="row pt-4 g-0">
+            <div  class="col-2" >
+                
+                <ul>
+                    <p>Project Manager</p>
+                    <li>
+                        <div class="h"><a href="" style="text-decoration: none;  ">Home</a></div>
+                    </li>
+                    <li>
+                        <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html"
+                                style="text-decoration: none;  " target="project">Profile</a></div>
+                    </li>
+                    <li>
+                        <div class="h"><a href="D:\html.css\project\Project Tracking\project manager view employes.html"
+                                target="project" style="text-decoration: none;  ">View EMployees</a></div>
+                    </li>
+                    <li>
+                        <div class="h"><a href="D:\html.css\project\Project Tracking\project manager add module.html"
+                                target="project" style="text-decoration: none;  ">Add Module</a></div>
+                    </li>
+                    <li>
+                        <div class="h"><a href="D:\html.css\project\Project Tracking\project manager view  module.html"
+                                target="project" style="text-decoration: none; ">View Module</a></div>
+                    </li>
+                    <li>
+                        <div class="h"><a href="D:\html.css\project\Project Tracking\project manager view project.html"
+                                target="project" style="text-decoration: none;  ">View Projects</a></div>
+                    </li>
+
+                    <li>
+                        <div class="h"><a href="" style="text-decoration: none; ">Logout</a></div>
+                    </li>
+
+                </ul>
             </div>
-        </div>
-        <div>
-            <iframe name="adminform" id="adminform" style="height: 600px; width: 100%;"></iframe>
-        </div>
-        <div class="text-center bg-secondary text-black">
-            <b>Project Tracking System ||Copy Rights <i class="bi bi-c-circle"></i>2019</b>
+
+           
+                <div class="col-10 n">
+                    <iframe name="project" height="600px" width="100%"></iframe>
+                </div>
+            
         </div>
     </div>
 
 </body>
+
 </html>

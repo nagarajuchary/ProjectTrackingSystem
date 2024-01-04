@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,35 +10,55 @@
     <title>Developer</title>
     <style>
         .h {
-          padding-left: 50px;
-        font-size: 20px;
+            padding-left: 10px;
+            font-size: 20px;
         }
-        
-        .n{
-            position: relative;
+        h1,
+        a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .np {
+            justify-content: end;
+        }
+
+        body {
+            background-color: transparent;
+        }
+        div.col-2{
+            background-color: aliceblue;
+            padding-left: 50px;
+        }
+        h4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            text-decoration: underline;
+            padding-top: 20px;
+            
         }
     </style>
 </head>
+
 <body>
     <div>
-        <div class="row" style="padding-left:100px; padding-top: 20px; font-size: 50px;">
-            <h1> Project Tracking System</h1>
-        </div>
-        <div class="row n pt-4">
-            <div class="btn-group">
-                <div class="h" style="padding-left: 100px;"><a href="" style="text-decoration: none; ">Home</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html" style="text-decoration: none;  " target="adminform">Profile</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\Developer view task.html" target="adminform" style="text-decoration: none;  ">View Task</a></div>
-                <div class="h" ><a href="" style="text-decoration: none; ">Logout</a></div>
+
+        <div class="row g-0 pt-4">
+            <div class="col-2">
+                <h4>Developer</h4>
+                <div class="h"><a href="" style="text-decoration: none; ">Home</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html"
+                        style="text-decoration: none;  " target="developer">Profile</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\Developer view task.html"
+                        target="developer" style="text-decoration: none;  ">View Task</a></div>
+                <div class="h"><a href="" style="text-decoration: none; ">Logout</a></div>
             </div>
+
+            <div class=" np col-10">
+                <iframe name="developer" style="height: 600px; width: 100%;"></iframe>
+            </div>
+
         </div>
-        <div>
-            <iframe name="adminform" id="adminform" style="height: 600px; width: 100%;"></iframe>
-        </div>
-        <div class="text-center bg-secondary text-white">
-            <b>Project Tracking System ||Copy Rights <i class="bi bi-c-circle"></i>2019</b>
-        </div>
-    </div>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,70 @@
     <title>Team Leader</title>
     <style>
         .h {
-          padding-left: 50px;
-        font-size: 20px;
+            padding-left: 20px;
+            font-size: 20px;
         }
-        .n{
+
+        .n {
             position: relative;
+        }
+
+        h1,
+        a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        ul {
+            display: block;
+            background-color: aliceblue;
+            height: 600px;
+            list-style-type: none;
+            padding-top: 10px;
+        }
+        .np {
+            justify-content: end;
+        }
+        h4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
+            padding-top: 20px;
+        }
+        body{
+            background-color: transparent;
         }
     </style>
 </head>
+
 <body>
     <div>
-        <div class="row" style="padding-left:100px; padding-top: 20px; font-size: 50px;">
-            <h1> Project Tracking System</h1>
-        </div>
-        <div class="row n pt-4">
-            <div class="btn-group">
-                <div class="h" style="padding-left: 100px;"><a href="" style="text-decoration: none;  ">Home</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html" style="text-decoration: none;  " target="adminform">Profile</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\Team leader view employes.html" target="adminform" style="text-decoration: none;  ">View EMployees</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\Team leader add task.html" target="adminform" style="text-decoration: none;  ">Add Task</a></div>
-                <div  class="h"><a href="D:\html.css\project\Project Tracking\Team leader view task.html" target="adminform" style="text-decoration: none; ">View Task</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\Team leader view modules.html " target="adminform" style="text-decoration: none;  ">View Modules</a></div>
+        <div class="row g-0 n pt-4">
+            <div class="col-2">
+                <ul>
+                    <h4>Team Leader</h4>
+                    <li class="h" ><a href="" style="text-decoration: none;  ">Home</a>
 
-                <div class="h" ><a href="" style="text-decoration: none; ">Logout</a></div>
+                    <li class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html"
+                            style="text-decoration: none;  " target="team">Profile</a></li>
+                    <li class="h"><a href="D:\html.css\project\Project Tracking\Team leader view employes.html"
+                            target="team" style="text-decoration: none;  ">View EMployees</a></li>
+                    <li class="h"><a href="D:\html.css\project\Project Tracking\Team leader add task.html" target="team"
+                            style="text-decoration: none;  ">Add Task</a></li>
+                    <li class="h"><a href="D:\html.css\project\Project Tracking\Team leader view task.html"
+                            target="team" style="text-decoration: none; ">View Task</a></li>
+                    <li class="h"><a href="D:\html.css\project\Project Tracking\Team leader view modules.html "
+                            target="team" style="text-decoration: none;  ">View Modules</a></li>
+
+                    <div class="h"><a href="" style="text-decoration: none; ">Logout</a></div>
+                </ul>
+
+
             </div>
+            <div class="col-10">
+                <iframe name="team" class="np" style="height: 600px; width: 100%;"></iframe>
+            </div>
+           
         </div>
-        <div>
-            <iframe name="adminform" id="adminform" style="height: 600px; width: 100%;"></iframe>
-        </div>
-        <div class="text-center bg-secondary text-black">
-            <b>Project Tracking System ||Copy Rights <i class="bi bi-c-circle"></i>2019</b>
-        </div>
-    </div>
 
 </body>
+
 </html>
