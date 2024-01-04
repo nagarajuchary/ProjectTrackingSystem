@@ -10,47 +10,69 @@
     <title>Admin</title>
     <style>
         .h {
-          padding-left: 50px;
-        font-size: 20px;
+            padding-left: 30px;
+            font-size: 20px;
         }
-        .image{
+
+        .image {
             background-image: url("home2.jpg");
             background-size: cover;
 
         }
-        .n{
+
+        .n {
             position: relative;
+            padding-top: 20px;
         }
-        h1,a{
+
+        h1,
+        a {
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
-        body{
+
+        body {
             background-color: transparent;
+        }
+
+        .btn-group {
+            display: block;
+            background-color: wheat;
+            height: 550px;
+            padding-top: 20px;
+        }
+        .np{
+           justify-content: end;
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
+            padding-left: 10%;
         }
     </style>
 </head>
 
 <body>
     <div>
-        <div class="row g-0" style="padding-left:100px; padding-top: 20px; font-size: 50px;">
-            <h1> Project Tracking System</h1>
+
+    </div>
+    <div class=" row n g-0" style="display: flex;">
+        <div class=" col-2 btn-group ">
+            <h2>Admin</h2>
+            <div class="h"><a href="" style="text-decoration: none;  ">Home</a></div>
+            <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html"
+                    style="text-decoration: none;  " target="admin">Employee Registration</a></div>
+            <div class="h "><a href="D:\html.css\project\Project Tracking\viewemployestable44.html" target="adminform"
+                    style="text-decoration: none; ">View Employees</a></div>
+            <div class="h"><a href="D:\html.css\project\Project Tracking\addproject5.html" target="admin"
+                    style="text-decoration: none;  ">Add Project</a></div>
+            <div class="h"><a href="D:\html.css\project\Project Tracking\viewprojectcard2.html" target="admin"
+                    style="text-decoration: none; ">View Projects</a></div>
+            <div class="h"><a href="" style="text-decoration: none; ">Logout</a></div>
         </div>
-        <div class=" n pt-4 g-0" style="display: flex;">
-            <div class="btn-group">
-                <div class="h" style="padding-left: 100px;"><a href="" style="text-decoration: none;  ">Home</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html" style="text-decoration: none;  " target="admin">Employee Registration</a></div>
-                <div class="h "><a href="D:\html.css\project\Project Tracking\card11.html" target="admin" style="text-decoration: none; ">View Employees</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\addproject5.html" target="admin" style="text-decoration: none;  ">Add Project</a></div>
-                <div  class="h"><a href="D:\html.css\project\Project Tracking\viewprojectcard2.html" target="admin" style="text-decoration: none; ">View Projects</a></div>
-                <div class="h" ><a href="" style="text-decoration: none; ">Logout</a></div>
-            </div>
+        <div class="col-10 np">
+            <iframe name="admin" id="admin" style="height:100%; width: 100%;"></iframe>
         </div>
-        <div>
-            <iframe name="admin" id="admin" style="height: 600px; width: 100%;"></iframe>
-        </div>
-        <div class="text-center bg-secondary text-black">
-            <b>Project Tracking System ||Copy Rights <i class="bi bi-c-circle"></i>2019</b>
-        </div>
+    </div>
     </div>
 
 </body>

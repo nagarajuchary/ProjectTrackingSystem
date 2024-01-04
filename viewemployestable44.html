@@ -17,11 +17,6 @@
             text-decoration: none;
         }
 
-        .n,
-        .hm {
-            background-color: transparent;
-        }
-
         a {
             text-decoration: none;
             color: black;
@@ -33,17 +28,26 @@
         }
 
         .pagination {
-            padding-top: 300px;
+            padding-top: 200px;
+            padding-left: 125px;
         }
-        select{
+
+        select {
             justify-content: end;
+        }
+
+        .col-3 {
+            height: 550px;
+        }
+
+        .row {
+            padding-left: 20px;
         }
     </style>
 </head>
 
-<body class="n">
+<body>
     <div class="row g-0">
-        <div class="col-1"></div>
         <div class="col-3 h">
             <h1>Employes Details</h1>
             <h4>Employes Names</h4>
@@ -76,13 +80,13 @@
                 </ul>
             </table>
             <h4><select>
-                <option selected>Filter by</option>
-                <option>username</option>
-                <option>Email.id</option>
-                <option>Mobile Number</option>
-                <option>Role</option>
-                <option>Superior</option>
-            </select></h4>
+                    <option selected>Filter by</option>
+                    <option>username</option>
+                    <option>Email.id</option>
+                    <option>Mobile Number</option>
+                    <option>Role</option>
+                    <option>Superior</option>
+                </select></h4>
             <div class="pagination">
                 <a href="">
                     <h4>&laquo</h4>
@@ -107,9 +111,10 @@
                 </a>
             </div>
         </div>
-        <div class="col-8">
-            <div class="hm">
-                <iframe name="dis" id="dis" class="text-center" width="100%" height="800px">CLICK ON EMPLOYES NAME TO VIEW DETAILS</iframe>
+        <div class="col-9">
+            <div>
+                <iframe name="dis" id="dis" class="text-center" width="100%" height="550px">CLICK ON EMPLOYES NAME TO
+                    VIEW DETAILS</iframe>
             </div>
         </div>
     </div>
