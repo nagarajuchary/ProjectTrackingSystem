@@ -12,50 +12,71 @@
         .h {
             padding-left: 50px;
             font-size: 20px;
+            padding-top: 20px;
+           display: flex;
         }
-
-        .image {
-            background-image: url("home1.jpg");
-            background-size: cover;
-        }
-
         .row {
             position: relative;
         }
-        h1,a{
+
+        h1 {
             font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
         }
-        
+        .dashboard{
+            height: 641px;
+            background-color: aliceblue;
+        }
+       
+        body{
+            background-image: url("technology.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       a{
+        text-decoration: none;
+        color:black;
+       }
     </style>
 </head>
 
-<body class="image">
+<body>
     <div>
-        <div class="row g-0" style="padding-left:100px; padding-top: 50px; font-size: 50px;color:white">
+        <div class="row g-0 bg-light" style="padding-left:50px; padding-top: 20px;">
+            <div class="col-2"></div>
+            <div class="col-8">
             <h1> Project Tracking System</h1>
+             </div>
+             <div class="col-2">
+                <form>
+                <input type="search" placeholder="Search" name="search">
+                <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+             </div>
         </div>
-        <div class="row g-0 pt-4">
-            <div class="btn-group">
-                <div class="h" style="padding-left: 100px;"><a href=""
-                        style="text-decoration: none;  color:white">Home</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\Admin form2.html" target=""
-                        style="text-decoration: none;  color:white" target="adminform">Admin</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\home3.html"
-                        style="text-decoration: none;  color:white" target="">Project Manager</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\home4.html"
-                        style="text-decoration: none;  color:white" target="">Team leader</a></div>
-                <div class="h"><a href="D:\html.css\project\Project Tracking\home5.html"
-                        style="text-decoration: none;  color:white" target="">Developer</a></div>
+
+        <div class="row g-0">
+            <div class="col-2 dashboard">
+                <div class="h"><a href="D:\html.css\project\Project Tracking\data.jpg" target="adminform">Home</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\Admin form2.html" target="adminform"
+                        target="adminform">Admin</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\Projectmanagerloginform.html"
+                        target="adminform">Project Manager</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\Teamleaderloginform.html"
+                        target="adminform">Team leader</a></div>
+                <div class="h"><a href="D:\html.css\project\Project Tracking\Developerloginform.html"
+                        target="adminform">Developer</a></div>
 
             </div>
+        
+        <div class="col-10">
+            <iframe name="adminform" id="adminform" style="height: 100%; width: 100%;"></iframe>
         </div>
-        <div>
-            <iframe name="adminform" id="" style="height: 550px; width: 100%;"> 
-            </iframe>
-        </div>
-        <div class="text-center bg-secondary text-white">
+        <div class="text-center bg-secondary text-black">
             <b>Project Tracking System ||Copy Rights <i class="bi bi-c-circle"></i>2019</b>
         </div>
+    </div>
+
     </div>
 </body>
 

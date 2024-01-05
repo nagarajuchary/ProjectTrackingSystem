@@ -21,12 +21,11 @@
         }
 
         .n {
-            position: relative;
             padding-top: 20px;
         }
 
-        h1,
-        a {
+        h1 {
+            padding-left: 20px;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
@@ -36,38 +35,73 @@
 
         .btn-group {
             display: block;
-            background-color: wheat;
-            height: 550px;
+            background-color: beige;
+            height: 660px;
             padding-top: 20px;
         }
-        .np{
-           justify-content: end;
+
+        .np {
+            justify-content: end;
         }
-        h2{
-            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        h4 {
+            
             text-decoration: underline;
             padding-left: 10%;
+        }
+
+        input {
+            border-radius: 10px;
+        }
+
+        button {
+            border: none;
+            margin: 0px;
+
+        }
+
+        .h:hover {
+            background-color: gray;
+        }
+
+        .h {
+            font-size: 18px;
+            padding-top: 10px;
+        }
+        a{
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="row g-0">
+        <div class="col-10">
+            <h1>Project Tracking System</h1>
+        </div>
+        <div class="col-2">
+            <div class="search-container">
+                <form>
 
+                    <input type="search" name="search" placeholder="Search">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class=" row n g-0" style="display: flex;">
+    <div class=" row n g-0">
         <div class=" col-2 btn-group ">
-            <h2>Admin</h2>
-            <div class="h"><a href="" style="text-decoration: none;  ">Home</a></div>
+            <h4>Admin</h4>
+            <div class="h"><a href="" >Home</a></div>
             <div class="h"><a href="D:\html.css\project\Project Tracking\registrationform7.html"
-                    style="text-decoration: none;  " target="admin">Employee Registration</a></div>
-            <div class="h "><a href="D:\html.css\project\Project Tracking\viewemployestable44.html" target="adminform"
-                    style="text-decoration: none; ">View Employees</a></div>
+                     target="admin">Employee Registration</a></div>
+            <div class="h "><a href="D:\html.css\project\Project Tracking\viewemployestable44.html" target=""
+                    >View Employees</a></div>
             <div class="h"><a href="D:\html.css\project\Project Tracking\addproject5.html" target="admin"
-                    style="text-decoration: none;  ">Add Project</a></div>
+                    >Add Project</a></div>
             <div class="h"><a href="D:\html.css\project\Project Tracking\viewprojectcard2.html" target="admin"
-                    style="text-decoration: none; ">View Projects</a></div>
-            <div class="h"><a href="" style="text-decoration: none; ">Logout</a></div>
+                    >View Projects</a></div>
+            <div class="h"><a href="D:\html.css\project\Project Tracking\homepage1.html" >Logout</a></div>
         </div>
         <div class="col-10 np">
             <iframe name="admin" id="admin" style="height:100%; width: 100%;"></iframe>

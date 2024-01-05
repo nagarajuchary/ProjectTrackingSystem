@@ -19,11 +19,8 @@
             width: 600px;
             height: 400px;
             text-align: center;
-            background-image: url("");
-            background-repeat: no-repeat;
-            background-size: cover;
-           
-          
+            backdrop-filter: blur(20px);
+
         }
 
         .input {
@@ -39,42 +36,37 @@
             padding-right: 20px;
             padding-top: 15px;
         }
-        .row{
+
+        .card{
+            margin-top: 100px;
             margin-left: 350px;
-            margin-top:100px ;
         }
     </style>
 </head>
 
 <body class="hm">
     <div class="row g-0">
-       
-            <div class="card">
 
-                <a> <span class="close"><i class="bi bi-x-lg"></i></span></a>
-
-                <h4>Admin Login</h4>
-
-
-                <div class="pt-5">
-                    <input class="form-control input" id="name" type="text" placeholder="Username">
-
-                </div>
-                <div class="pt-4">
-                    <input class="form-control input" type="password" placeholder="Password">
-
-
-
-                    <a href="" >Forgot Password</a>
-                    <a href="">Create Account</a>
-                    <div class="pt-4">
-                        <a href="D:\html.css\project\Project Tracking\admin.html" target="-parent"><button
-                                class="btn btn-dark">login</button></a>
-                    </div>
-                </div>
+        <div class="card">
+            <a> <span class="close"><i class="bi bi-x-lg"></i></span></a>
+            <h4>Project Manager</h4>
+            <div class="pt-5">
+                <input class="form-control input" id="name" type="text" placeholder="Username">
 
             </div>
-       
+            <div class="pt-4">
+                <input class="form-control input" type="password" placeholder="Password">
+
+            </div>
+            <a href="">Forgot Password</a>
+            <a href="D:\html.css\project\Project Tracking\registrationform7.html">Register</a>
+            <div class="pt-4">
+                <a href="D:\html.css\project\Project Tracking\home3.html" target="_parent"><button
+                        class="btn btn-dark">login</button></a>
+            </div>
+
+        </div>
+
 
     </div>
 </body>

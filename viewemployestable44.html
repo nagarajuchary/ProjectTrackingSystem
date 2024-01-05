@@ -11,6 +11,8 @@
     <style>
         .h {
             padding-top: 20px;
+            padding-left: 30px;
+            background-color: beige;
         }
 
         .a {
@@ -21,6 +23,7 @@
             text-decoration: none;
             color: black;
             padding-left: 10px;
+            padding-top: 20px;
         }
 
         .pagination h4:hover {
@@ -29,11 +32,11 @@
 
         .pagination {
             padding-top: 200px;
-            padding-left: 125px;
+            
         }
 
         select {
-            justify-content: end;
+           
         }
 
         .col-3 {
@@ -43,50 +46,71 @@
         .row {
             padding-left: 20px;
         }
+
+        p {
+            font-size: 20px;
+        }
+        li:hover{
+            background-color: gray;
+        }
+        li{
+        padding-top: 10px;
+        font-size: 15px;
+        }
+        
+       
     </style>
 </head>
 
 <body>
     <div class="row g-0">
-        <div class="col-3 h">
-            <h1>Employes Details</h1>
-            <h4>Employes Names</h4>
-            <table>
-                <ul>
-                    <tr>
-                        <li><a href="card111.html" class="a" target="dis">001</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card2.html" class="a" target="dis">002</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card3.html" class="a" target="dis">003</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card4.html" class="a" target="dis">004</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card5.html" class="a" target="dis">005</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card6.html" class="a" target="dis">006</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card7.html" class="a" target="dis">007</a></li>
-                    </tr>
-                    <tr>
-                        <li><a href="card11.html" class="a" target="dis">Display all</a></li>
-                    </tr>
-                </ul>
-            </table>
-            <h4><select>
-                    <option selected>Filter by</option>
-                    <option>username</option>
-                    <option>Email.id</option>
-                    <option>Mobile Number</option>
-                    <option>Role</option>
-                    <option>Superior</option>
-                </select></h4>
+        <div class="col-10">
+        <h1>Employes Details</h1>
+        </div>
+        <div class="col-2">
+        <p><select>
+            <option selected>Filter by</option>
+            <option>username</option>
+            <option>Email.id</option>
+            <option>Mobile Number</option>
+            <option>Role</option>
+            <option>Superior</option>
+        </select></p>
+        </div>
+    </div>
+    <div class="row g-0">
+        <div class="col-2 h">
+            
+                <p>Employes Names</p>
+                <table>
+                    <ul>
+                        <tr>
+                            <li><a href="card111.html" class="a" target="dis">Project</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card2.html" class="a" target="dis">Manager</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card3.html" class="a" target="dis">Team</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card4.html" class="a" target="dis">Leader</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card5.html" class="a" target="dis">Developer</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card6.html" class="a" target="dis">Admin</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card7.html" class="a" target="dis">HR</a></li>
+                        </tr>
+                        <tr>
+                            <li><a href="card11.html" class="a" target="dis">Display all</a></li>
+                        </tr>
+                    </ul>
+                </table>
+           
             <div class="pagination">
                 <a href="">
                     <h4>&laquo</h4>
@@ -111,9 +135,10 @@
                 </a>
             </div>
         </div>
-        <div class="col-9">
+        <div class="col-10">
             <div>
-                <iframe name="dis" id="dis" class="text-center" width="100%" height="550px">CLICK ON EMPLOYES NAME TO
+                <iframe name="dis" id="dis" class="text-center" width="100%" height="650">CLICK ON EMPLOYES
+                    NAME TO
                     VIEW DETAILS</iframe>
             </div>
         </div>
